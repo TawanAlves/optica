@@ -1,0 +1,145 @@
+@charset UTF-8;
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; */
+}
+
+main{
+   background-color: white;
+   width: 100vw;
+}
+
+section#topo{
+   margin: auto;
+   width: 87vw;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content:  space-around ;  
+   row-gap: 5px;
+   padding: 50px 0px 100px 0px ;
+}
+div.right{
+   max-width: 50vw;
+}
+img#logo{
+   width: 153px;
+   padding-top: 50px;
+}
+div.right h1{
+   padding: 23px 40px 10px 0px;
+   font-family: "Poppins", Sans-serif;
+   font-size: 50px;
+   font-weight: 600;
+   line-height: 58px;
+   color: #232323;
+
+}
+div.right h3{
+   padding: 21px 176px 20px 3px;
+   color: #6A6A6A;
+   font-family: "Poppins", Sans-serif;
+   font-size: 22px;
+   line-height: 30px;
+   font-weight: 400;
+}
+div.right span{
+   color: #555555;
+   font-size: 23px;
+   font-weight: 600;
+}
+div p.verde{
+   color: #0EC277;
+   font-family: "Poppins", Sans-serif;
+   font-size: 14px;
+   line-height: 30px;  
+   padding-bottom: 20px; 
+
+}
+div.right > a{
+   text-decoration: none;  
+}
+div.right > a > p{
+   width: 260px;
+   padding: 21px 7px;
+   background-image: linear-gradient(to right, rgb(241, 200, 200) 0,001% , rgb(220, 44, 44)  );
+   text-align: center;
+   font-family: "Poppins", Sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   fill: #FFFFFF;
+   color: #FFFFFF;
+   border-radius: 10px;
+
+}
+div.left{
+   max-width:50vw;
+}
+div.left img{
+   max-width: 631px;
+}
+
+section#servicosflex{
+   display: flex;
+   width: 80vw;
+   margin: auto;
+   padding: 100px 0px;
+   gap: 10px;
+   /* background-color: #FAFAFA; */
+}
+section#servicosflex h2{
+   font-family: "Poppins", Sans-serif;
+   color: #D82526;    
+   line-height: 1.2;
+   text-align: center;
+   font-size: 26px;
+
+}
+div.servicosflex{
+   max-width: 380px;
+}
+div.servicosflex >p{
+   padding: 30px 0px;
+   text-align: center;
+    color: #555555;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+div.nossoservico{
+   width: 80vw;
+   padding-top: 50px;
+   margin: auto;
+}
+
+section#nossoservico {
+   width: 90vw;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:  space-around ; 
+   /* space-between  */
+   margin:auto;
+   row-gap: 10px;
+}
+
+div.nossoservico h1{
+   font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    color: #232323 ;
+    display: block;
+}
+section#nossoservico div{
+   padding: 36px 22px;
+}
+section#nossoservico img{
+   width: 313px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.252);
+}
