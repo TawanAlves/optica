@@ -86,8 +86,8 @@ div.right{
 }
 div.right img{
    width: 100%;
+   border-radius: 50px;
 }
-
 section#servicosflex{
    display: flex;
    width: 87vw;
@@ -150,6 +150,45 @@ section#nossoservico img{
    border-radius: 10px;
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.252);
 }
+div.depoimentos > h1{
+   font-family: "Poppins", Sans-serif;
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 50px;
+   text-align: center;
+   padding-top: 90px;
+   color: #232323;
+}
+section#depoimentos{
+   display: flex;
+   width: 87vw;
+   margin: auto;
+   padding: 50px 0px 100px 0px;
+   gap: 20px;
+   justify-content: center;
+   align-content: center;
+}
+section#depoimentos img{
+   max-width: 360px;
+   border-radius: 12px;
+}
+section#sobre div > h1{
+   font-family: "Poppins", Sans-serif;
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 50px;
+   color: #232323;
+  text-align: center;
+}
+section#sobre > div > p{
+   padding: 40px 0px 50px 0px;
+   font-family: "Poppins", Sans-serif;
+   line-height: 27px;
+   color: #7A7A7A;
+   text-align: justify;
+   max-width: 60vw;
+   margin: auto;
+}
 
 @media screen and (max-width: 800px){
    section#topo{  
@@ -192,7 +231,8 @@ section#nossoservico img{
    div.left  a > p{
       margin: auto;
       margin-bottom: 50px;
-   }
+      width: 100%;
+      }
    div.right{
       padding: 0; 
    }
@@ -211,5 +251,40 @@ section#nossoservico img{
        font-size: 16px;
        padding: 10px 0px 80px 0px;
    }
+   section#nossoservico div {
+      padding: 22px 9px;
+  }
+   section#nossoservico img{
+      width: 100%;
+   }
+   div.depoimentos > h1{
+      font-size: 41px;
+      padding-top: 90px;
+      line-height: 43px;
+   }
+   section#depoimentos{
+      display: block;
+      width: 87vw;
+      margin: auto;
+      padding: 50px 0px 100px 0px;
+      gap: 20px;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+   }
+   section#depoimentos img{
+      max-width: 100%;
+   }
+   section#depoimentos > div{
+      padding: 10px;
+   }
+
+   
 }
 
+@media screen and (max-width: 300px){
+   div.depoimentos > h1{
+      font-size: 35px;  
+   }
+
+}
