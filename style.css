@@ -6,6 +6,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+   font-family: "Poppins", Sans-serif;
 	/* font-size: 100%;
 	font: inherit;
 	vertical-align: baseline; */
@@ -62,10 +63,12 @@ div p.verde{
    padding-bottom: 20px; 
 
 }
-div.left > a{
+/* div.left > */
+ a.compra{
    text-decoration: none;  
 }
-div.left > a > p{
+/* div.left > */
+ a.compra > p{
    width: 260px;
    padding: 21px 7px;
    background-image: linear-gradient(to right,#EA9025 0,001% ,#DF5321  );
@@ -189,7 +192,41 @@ section#sobre > div > p{
    max-width: 60vw;
    margin: auto;
 }
-
+section#cta{
+   background-image: linear-gradient(to right,#EA9025 0,9% ,#DF5321  );
+   padding: 80px 0px 80px 0px;
+}
+section#cta > div {
+   background-color:white;
+   max-width: 710px;
+   width: 90%;
+   margin: auto;
+   padding: 40px 10px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.556);
+}
+section#cta > div > h1{
+   font-weight: normal;
+   box-sizing: border-box;
+   font-size: 40px;
+   line-height: 1.2em;
+   color: #232323;
+   text-align: center;
+}
+section#cta > div >p{
+   text-align: center;
+    color: #5B5B5B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 30px 0px;
+}
+section#cta > div a.compra > p {
+   margin: auto;
+}
+footer{
+   padding: 50px 10px;
+}
 @media screen and (max-width: 800px){
    section#topo{  
       margin: auto;
@@ -277,9 +314,20 @@ section#sobre > div > p{
    }
    section#depoimentos > div{
       padding: 10px;
-   }
+   }   
 
-   
+   section#cta > div {
+      width: 80%;
+      margin: auto;
+      padding: 40px 20px;  
+   }
+   section#cta > div > h1{
+      font-size: 35px;
+      line-height: 1.2em;
+   }
+   section#cta > div a.compra > p{
+      max-width: 80vw;
+   }
 }
 
 @media screen and (max-width: 300px){
