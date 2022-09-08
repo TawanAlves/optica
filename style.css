@@ -286,6 +286,17 @@ footer > a{
    text-decoration: none;
    color: black;
 }
+div.publi{
+   text-align: center;
+}
+div.publi a{
+   text-decoration: none;
+   color: #7b869c;
+   font-size: 19px;
+}
+div.publi a:hover{
+   cursor: pointer;
+}
 @media screen and (max-width: 1144px){
    section#depoimentos {
   
